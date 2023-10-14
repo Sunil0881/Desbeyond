@@ -22,7 +22,7 @@ const Navbar = () => {
         <header className=' md:pr-5 h-12 md:h-16 pl-5 pt-3 pr-5 '>
         <nav className="flex justify-between  w-full bg-slate-300/20 text-white rounded-xl">
             <div className=''>
-            <img src={logo}  className="h-12 md:h-14 md:pt-1 "></img>
+            <img src={logo} alt="logo" className="h-12 md:h-14 md:pt-1 "></img>
             </div>
             <div className={`md:static absolute  md:min-h-fit left-0 w-full md:w-auto min-h-[41vh] flex items-center px-5 transition-all duration-700 ease-in-out bg-slate-300/20`} style={navStyle}>
                 <ul className="flex md:flex-row flex-col md:item-center md:gap-10 gap-8 md:font-semibold md:text-lg md:pt-1 ">
