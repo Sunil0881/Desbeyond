@@ -8,7 +8,7 @@ const Team = () => {
                     Team That Make It Happen
                 </h1>
                 <p></p>
-                <p className="text-white hidden md:block text-lg col-span-2 pr-7">
+                <p className="text-white hidden md:block text-lg md:text-xl col-span-2 pr-7">
                     Meet the mega-talented crew on a mission to help brands create memorable websites that sell. Our people are Huemor’s rocket fuel. They make it possible to build award-winning websites that lead the industry and convert more customers. Oh, and they’re great to work with.
                 </p>
             </div>
