@@ -4,7 +4,8 @@ import Move from "../components/MoveText";
 import Slide from "../components/slide";
 import Test from "../components/Test";
 import Footer from "../components/Footer";
-import '../components/MovingText.css'
+import "../components/MovingText.css";
+
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
         <div className="md:flex mx-2">
           <div className="flex justify-center">
             <h1 className="text-5xl md:text-8xl md:font-bold mx-14 font-bold font-sans text-white mt-16">
-              Designing <span className="bg-transparent title-line"> Beyond </span>
+              Designing
+              <span className="bg-transparent title-line"> Beyond </span>
               Today, for <span className="title-line">Tomorrow</span>
             </h1>
             <h1 className="text-3xl md:text-8xl md:font-bold mx-16 font-bold font-sans text-white mt-16 hidden">
@@ -84,8 +86,9 @@ const Home = () => {
           Client Testimonials
         </h1>
         <p className="text-left mt-10 md:text-xl mx-3 md:mx-20">
-        The satisfaction of our clients is our most prized accomplishment. Here's what some of them have
-         to say about their experiences with Desbeyond:
+          The satisfaction of our clients is our most prized accomplishment.
+          Here's what some of them have to say about their experiences with
+          Desbeyond:
         </p>
         <Test />
       </div>

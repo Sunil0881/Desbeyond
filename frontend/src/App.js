@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="bg-gradient-to-b from-purple-500 via-gray-400 to-blue-500">
       <Router>
+
           <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
