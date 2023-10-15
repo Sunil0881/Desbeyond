@@ -38,7 +38,7 @@ const Home = () => {
         <a
 
           className="md:text-left text-center text-xl my-5 mx-3 md:mx-52 border-2 hover:border-2 scale-75 hover:scale-100 px-1 py-2 rounded-full"
-          className="text-left text-xl my-5 mx-3 md:mx-52 px-1 py-2 rounded-full"
+          
 
           href="/Contact"
         >
