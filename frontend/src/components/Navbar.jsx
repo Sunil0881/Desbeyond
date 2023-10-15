@@ -45,7 +45,7 @@ export default function Navbar() {
     return (
         <nav className="flex filter drop-shadow-md bg-gradient-to-r from-violet-600 via-purple-800 to-violet-800 bg-transparent px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="w-2/12 flex items-center">
+            <div className="w-full md:w-2/12 flex items-center">
                 <a className="flex" href="/"><img src={logo} className='h-12 w-full' alt='logo' /></a>
                 <div className='pt-2'>
                     <a href='/'>
