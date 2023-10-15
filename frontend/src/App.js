@@ -7,11 +7,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-
-    
-      
-
-    <div className="">
+    <div className="bg-gradient-to-b from-purple-500 via-gray-400 to-blue-500">
       <Router>
 
           <Routes>

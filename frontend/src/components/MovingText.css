@@ -1,0 +1,23 @@
+@keyframes loopText {
+  0% {
+    transform: translateX(100%); /* Start with the last element */
+  }
+  100% {
+    transform: translateX(-100%); /* End with the first element */
+  }
+}
+
+.title-line {
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+
+.moving-text {
+  animation: loopText 10s linear infinite; /* Adjust the duration as needed */
+  white-space: nowrap in; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+}
