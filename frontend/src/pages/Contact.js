@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
-    <div className='bg-indigo-950 text-white'>
+    <div className='bg-gradient-to-r from-blue-600 via-sky-300 to-sky-400 text-white'>
         <Navbar />
       <div>
         <h1 className='font-bold text-center text-3xl md:text-6xl py-10'>
