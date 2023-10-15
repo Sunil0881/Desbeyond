@@ -11,7 +11,7 @@ const Footer = () => {
                     <h1 class="text-white text-center md:text-left md:mx-7 font-bold text-xl">DESBEYOND</h1>
                     <p class="text-white text-sm pt-3 md:text-left md:mx-7 text-center">Designing Beyond Today, For Tomorrow
                         </p>
-                    <div class="flex gap-5 pt-6 md:justify-start md:mx-7 justify-center">
+                    <div class="flex gap-5 pt-6 md:justify-start md:mx-7 justify-center hover:text-cyan-500">
                         <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" >
                             <path
@@ -33,25 +33,26 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 md:space-x-20 md:px-10">
+                    
                     <div class="flex flex-col items-center justify-center">
-                        <div class="text-white ">
+                        <div class="text-white hover:text-cyan-500">
                             About<br></br>
                         </div>
-                        <div class="text-white">
+                        <div class="text-white hover:text-cyan-500">
                             Services<br></br>
                         </div>
-                        <div class="text-white">
+                        <div class="text-white hover:text-cyan-500">
                             Contact Us
                         </div>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <div class=" text-white ">
+                        <div class=" text-white hover:text-cyan-500">
                             Company<br></br>
                         </div>
-                        <div class=" text-white">
+                        <div class=" text-white hover:text-cyan-500">
                             Partnership<br></br>
                         </div>
-                        <div class=" text-white">
+                        <div class=" text-white hover:text-cyan-500">
                             Tersm of use
                         </div>
                     </div>
