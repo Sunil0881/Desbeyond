@@ -26,7 +26,7 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Contact
                 </a>
-                <a className="text-xl font-normal my-4" href="/Services" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4" href="/Service" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Services
                 </a>
                 <a className="text-xl font-normal my-4" href="/bolgs" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -67,7 +67,7 @@ export default function Navbar() {
                     <NavLink to="/about">
                         ABOUT
                     </NavLink>
-                    <NavLink to="/Services">
+                    <NavLink to="/Service">
                         SERVICES
                     </NavLink>
                     <NavLink to="/blogs">
