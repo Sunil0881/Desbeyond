@@ -11,12 +11,12 @@ function NavLink({to, children}) {
 
 function MobileNav({open, setOpen}) {
     return (
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-gradient-to-r from-blue-600 via-sky-300 to-sky-400 z-10 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
+        <div className={`absolute top-0 left-0 h-screen w-screen bg-white z-10 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
             <div className="flex items-center justify-center filter drop-shadow-md font-ubuntu font-bold g-gradient-to-r from-purple-600 via-gray-200 to-blue-400 h-20 z-10 md:hidden"> {/*logo container*/}
                 <h1 className="text-xl font-poppins text-black uppercase font-bold">Desbeyond</h1>
             </div>
 
-            <div className="flex flex-col ml-4 text-white">
+            <div className="flex flex-col ml-4 text-black">
                 <a className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </a>
