@@ -1,3 +1,4 @@
+
 @keyframes loopText {
   0% {
     transform: translateX(100%); /* Start with the last element */
@@ -24,4 +25,5 @@
   white-space: nowrap in; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowing text */
 }
+
 
