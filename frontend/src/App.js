@@ -11,7 +11,7 @@ function App() {
     
       
 
-    <div className="">
+    <div className="bg-indigo-950">
       <Router>
 
           <Routes>
