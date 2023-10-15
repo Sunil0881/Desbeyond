@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slideabout";
 import Team from "../components/Team";
+import Footer from "../components/Footer"
 
 const About = () => {
     return ( 
