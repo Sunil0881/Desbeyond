@@ -6,6 +6,7 @@ import Test from "../components/Test";
 import Footer from "../components/Footer";
 import "../components/MovingText.css";
 
+
 const Home = () => {
   return (
     <div className=" overflow-x-hidden font-ubuntu">
@@ -35,10 +36,13 @@ const Home = () => {
       </div>
       <div className="text-white my-5 mt-5">
         <a
-          className="text-left text-xl my-5 mx-3 md:mx-52 border-2 hover:border-2 scale-75 hover:scale-100 px-1 py-2 rounded-full"
+          className="text-left text-xl my-5 mx-3 md:mx-52 px-1 py-2 rounded-full"
           href="/Contact"
         >
-          ContactUS
+          <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:text-cyan-500 hover:bg-none hover:border-2 text-white font-bold py-2 px-4 rounded-full">
+  Contact Us
+</button>
+
         </a>
       </div>
       <div className="text-white font-sans mt-20 md:mt-40 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">

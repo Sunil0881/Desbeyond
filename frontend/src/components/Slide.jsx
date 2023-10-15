@@ -18,9 +18,8 @@ const Slide = () => {
                 <div className="carousel carousel-center space-x-5 rounded-box">
                     <div className="carousel-item block text-white font-sans uppercase">
                         <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
+                        <p className='font-bold m-5'>Book Design</p>
+                       
                     </div>
                     <div className="carousel-item block text-white font-sans uppercase">
                         <img src={logo} className='w-full h-96' alt="Pizza" />
