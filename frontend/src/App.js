@@ -8,12 +8,10 @@ import Contact from './pages/Contact';
 function App() {
   return (
 
-    <div className="bg-gradient-to-b from-orange-500 via-gray-400 to-blue-500 ">
-      <BrowserRouter>
-        <Navbar />
-        <div className="pages">
+    
+      
 
-    <div className="bg-gradient-to-b from-orange-500 via-gray-400 to-blue-500">
+    <div className="bg-indigo-950">
       <Router>
 
           <Routes>
