@@ -19,8 +19,8 @@ const Navbar = () => {
         top: menuOpen ? '8%' : '-100%',
     };
     return ( 
-        <header className=' md:pr-5 h-12 md:h-16 pl-5 pt-3 pr-5 '>
-        <nav className="flex justify-between  w-full bg-slate-300/20 text-white rounded-xl">
+        <header className=' md:pr-5 h-12 md:h-16 pl-5 pt-3 pr-5 shadow-lg'>
+        <nav className="flex md:justify-end justify-between  w-full bg-slate-300/20 text-white rounded-xl">
             <div className=''>
             <img src={logo}  className="h-12 md:h-14 md:pt-1 " alt="logo"></img>
             </div>
