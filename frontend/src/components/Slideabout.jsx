@@ -6,7 +6,7 @@ const Slider = () => {
       const scrollInterval = setInterval(() => {
         setPosition(prevPosition => {
           const newPosition = prevPosition - 1;
-          return newPosition <= -1500 ? 0 : newPosition; 
+          return newPosition <= -1000 ? 0 : newPosition; 
         });
       }, 10);       
   
