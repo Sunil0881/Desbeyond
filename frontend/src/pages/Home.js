@@ -28,7 +28,7 @@ const Home = () => {
             <img
               src={logo}
               alt="logo"
-              className="rounded-full border-4 md:mx-20 border-gray-400 hover:border-blue-400"
+              className="rounded-full border-8 drop-shadow-2xl md:mx-10 md:mt-14 border-gray-400 hover:border-blue-400 md:scale-125"
             />
           </div>
         </div>
@@ -53,7 +53,7 @@ const Home = () => {
         </h1>
       </div>
       <div className="text-white md:mx-20 mx-3">
-        <p className="text-left my-5 mt-5">
+        <p className="text-left my-5 mt-5 font-poppins">
           We provide 100% problem-free files for printing
         </p>
         <p className="text-left my-5">
@@ -61,16 +61,26 @@ const Home = () => {
           the intricacies of the commercial printing industry.
         </p>
         <p className="text-left my-5">
-          <sapn className="font-bold">Punctuality:</sapn> "We have consistently met all project deadlines without
+          <p className="my-3">
+          <span className="font-bold">Punctuality:</span> "We have consistently met all project deadlines without
           exception." <br/>
+          </p>
+          <p className="my-3">
           <span className="font-bold my-3">Tailored Service:</span> "We provide highly personalized and
           customized services tailored to each client's specific needs."  <br/>
+          </p>
+          <p className="my-3">
           <span className="font-bold my-3"> On-Time and On-Budget Delivery:</span>  "Our commitment to delivering projects
-          promptly and within the agreed budget is unwavering.  <br/>
-          <span className="font-bold my-3">" Efficiency and Reliability:</span> "Our team excels in efficiency, professionalism, and
+          promptly and within the agreed budget is unwavering."  <br/>
+          </p>
+          <p className="my-3">
+          <span className="font-bold my-3">Efficiency and Reliability:</span> "Our team excels in efficiency, professionalism, and
           collaboration, ensuring a seamless and reliable working relationship." <br/>
+          </p>
+          <p className="my-3">
           <span className="font-bold my-3">Dedication to Your Success:</span> "Our primary objective is to partner with
           you to ensure your success and achievements."
+          </p>
         </p>
       </div>
       <div id="ourstory" className="text-white my-10">
