@@ -6,8 +6,6 @@ import Test from "../components/Test";
 import Footer from "../components/Footer";
 import "../components/MovingText.css";
 
-
-
 const Home = () => {
   return (
     <div className=" overflow-x-hidden font-ubuntu">
@@ -15,7 +13,7 @@ const Home = () => {
       <div className="md:flex ">
         <div className="md:flex mx-2">
           <div className="flex justify-center">
-            <h1 className="text-5xl md:text-8xl md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white mt-16">
+            <h1 className="text-5xl md:text-9xl scale-100 md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white my-4 mt-10">
               Designing
               <span className="bg-transparent title-line"> Beyond </span>
               Today, for <span className="title-line">Tomorrow</span>
@@ -35,27 +33,44 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="text-white font-sans mt-20 md:mt-20 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
-        <h1 className="uppercase text-white font-bold text-3xl">Our Story</h1>
+      <div className="text-white my-5 mt-5">
+        <a
+          className="text-left text-xl my-5 mx-3 md:mx-52 border-2 hover:border-2 scale-75 hover:scale-100 px-1 py-2 rounded-full"
+          href="/Contact"
+        >
+          ContactUS
+        </a>
+      </div>
+      <div className="text-white font-sans mt-20 md:mt-40 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
+        <h1 className="uppercase text-white font-bold text-3xl">
+          What Makes Us Stand Out?
+        </h1>
       </div>
       <div className="text-white font-sans mt-10 md:mt-20 md:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
         <h1 className="text-left">
-          It all began in the pursuit of design excellence, where two
-          visionaries, Sarah Mitchell and Alex Turner, joined forces to
-          establish Desbeyond, a cutting-edge design company.
+          We take the extra time to inspect every Digital Image supplied,
+          ensuring optimal details, and color-correcting / enhancing as needed.
         </h1>
       </div>
       <div className="text-white md:mx-20 mx-3">
         <p className="text-left my-5 mt-5">
-          Fueled by an unwavering passion for design and the desire to transform
-          creative visions into remarkable realities, Sarah and Alex embarked on
-          a journey that has seen them craft captivating designs and elevate
-          brands to new heights.
+          We provide 100% problem-free files for printing
         </p>
         <p className="text-left my-5">
-          Fast forward to today, Desbeyond has made its mark as a distinguished
-          design powerhouse, serving clients from various industries and
-          connecting with creatives worldwide.
+          We are not just print Designers; we are production artists who know
+          the intricacies of the commercial printing industry.
+        </p>
+        <p className="text-left my-5">
+          <sapn className="font-bold">Punctuality:</sapn> "We have consistently met all project deadlines without
+          exception." <br/>
+          <span className="font-bold my-3">Tailored Service:</span> "We provide highly personalized and
+          customized services tailored to each client's specific needs."  <br/>
+          <span className="font-bold my-3"> On-Time and On-Budget Delivery:</span>  "Our commitment to delivering projects
+          promptly and within the agreed budget is unwavering.  <br/>
+          <span className="font-bold my-3">" Efficiency and Reliability:</span> "Our team excels in efficiency, professionalism, and
+          collaboration, ensuring a seamless and reliable working relationship." <br/>
+          <span className="font-bold my-3">Dedication to Your Success:</span> "Our primary objective is to partner with
+          you to ensure your success and achievements."
         </p>
       </div>
       <div id="ourstory" className="text-white my-10">
