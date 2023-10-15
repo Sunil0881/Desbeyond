@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import imgSrc from '../assets/coverimg.jpeg';
 import arrow from '../assets/down-arrow.png';
-import { CustomPrevArrow, CustomNextArrow } from './customarrow';
+import { CustomPrevArrow, CustomNextArrow } from './Customarrow';
 
 const BookCard = ({ name, author, imgSrc, voters, summary }) => (
   <div className="book-card bg-gradient-to-t from-green-300 via-blue-500 to-purple-600 mx-8 p-4 shadow-lg rounded-lg">
