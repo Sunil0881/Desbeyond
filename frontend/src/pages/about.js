@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import Slider from "../components/Slideabout";
 import Team from "../components/Team";
 
@@ -17,6 +17,7 @@ const About = () => {
             </div>
             <Slider />
             <Team />
+            <Footer />
         </div>
      );
 }

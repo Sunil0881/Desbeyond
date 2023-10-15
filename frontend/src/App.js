@@ -5,15 +5,10 @@ import About from './pages/about';
 import Service from './pages/service';
 import Contact from './pages/contact';
 
-function App() {
+function App() {    
   return (
-
     
-      
-
-    <div className="">
       <Router>
-
           <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
@@ -21,7 +16,6 @@ function App() {
           <Route path="/Service" Component={Service} />
           </Routes>
       </Router>
-    </div>
   );
 }
 

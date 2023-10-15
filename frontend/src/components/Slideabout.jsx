@@ -14,7 +14,7 @@ const Slider = () => {
     }, []);
       
     return (
-        <div className="flex flex-row gap-40  container pt-16 pb-16" style={{ transform: `translateX(${position}px)` }}>
+        <div className="flex flex-row gap-20  container pt-16 pb-16" style={{ transform: `translateX(${position}px)` }}>
             <div className="flex-shrink-0 item ">
                 <p className="text-5xl font-bold text-violet-600 flex justify-center">0+</p>
                 <p className="text-white text-base">Cummulative Years of Experience</p>
