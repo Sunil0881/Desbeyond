@@ -50,7 +50,7 @@ export default function Navbar() {
                 <div className=''>
                     <a href='/'>
                     <h1 className='text-white font-bold text-2xl uppercase'>desbeyond</h1>
-                    <h1 className='text-white font-semibold text-xs tracking-widest'>Design Beyond</h1>
+                    <h1 className='text-white font-semibold text-xs tracking-widest'>Designs Beyond</h1>
                     </a>
                 </div>
             </div>
