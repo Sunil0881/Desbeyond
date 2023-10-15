@@ -27,9 +27,9 @@ const Navbar = () => {
             <div className={`md:static absolute  md:min-h-fit left-0 w-full md:w-auto min-h-[41vh] flex items-center px-5 transition-all duration-700 ease-in-out bg-slate-300/20`} style={navStyle}>
                 <p className="flex md:flex-row flex-col md:item-center md:gap-10 gap-8 md:font-semibold md:text-lg md:pt-1 ">
                     <a href="/" className="hover:text-green-400 cursor-pointer font-semibold md:ml-96" onClick={() => scrollToSection('home')}>Home</a>
-                    <a href="/contact" className="hover:text-green-400 cursor-pointer font-semibold" onClick={() => scrollToSection('contact')}>Contact</a>
                     <a href="/about" className="hover:text-green-400 cursor-pointer font-semibold" onClick={() => scrollToSection('about')}>About</a>
                     <a href="/Service" className="hover:text-green-400 cursor-pointer font-semibold" onClick={() => scrollToSection('service')}>Service</a>
+                    <a href="/contact" className="hover:text-green-400 cursor-pointer font-semibold" onClick={() => scrollToSection('contact')}>Contact</a>
 
                 </p>
             </div>

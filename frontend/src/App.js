@@ -14,7 +14,7 @@ function App() {
 
    
 
-    <div className="bg-gradient-to-b from-purple-500 via-gray-400 to-blue-500">
+    <div className="bg-indigo-950">
 
       <Router>
 

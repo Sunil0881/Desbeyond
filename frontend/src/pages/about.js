@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/navbar";
 import Slider from "../components/Slideabout";
 import Team from "../components/Team";
@@ -17,6 +18,7 @@ const About = () => {
             </div>
             <Slider />
             <Team />
+            <Footer />
         </div>
      );
 }
