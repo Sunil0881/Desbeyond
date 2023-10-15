@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import logo from "../assets/ideas-creative-occupation-design_53876-61069.png";
 import Move from "../components/MoveText";
-import Slide from "../components/slide";
+import Slide from "../components/Slide";
 import Test from "../components/Test";
 import Footer from "../components/Footer";
 import "../components/MovingText.css";
