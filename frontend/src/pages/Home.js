@@ -43,18 +43,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="text-white my-5 mt-5">
+      <div className="text-white flex justify-center md:justify-start my-5 mt-5">
         <a
-
-          className="md:text-left text-center text-xl my-5 mx-3 md:mx-52 border-2 hover:border-2 scale-75 hover:scale-100 px-1 py-2 rounded-full"
-          className="text-left text-xl my-5 mx-3 md:mx-52 px-1 py-2 rounded-full"
-
-          href="/Contact"
+          className="md:text-left text-xl my-5 mx-3 md:mx-52 scale-75 hover:scale-100 px-1 py-2 rounded-full" href="/Contact"
         >
-          <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:text-cyan-500 hover:bg-none hover:border-2 text-white font-bold py-2 px-4 rounded-full">
+          <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:bg-none hover:border-2 hover:border-white text-white hover:text-white font-bold py-2 px-4 rounded-full">
   Contact Us
 </button>
-
         </a>
       </div>
       <div className="text-white font-sans mt-20 md:mt-40 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
