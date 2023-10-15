@@ -16,6 +16,7 @@ function App() {
           <Route path="/Service" Component={Service} />
           </Routes>
       </Router>
+    </div>
   );
 }
 

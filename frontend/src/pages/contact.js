@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+
 const Contact = () => {
   return (
     <div className='bg-indigo-950 text-white'>
@@ -44,5 +45,6 @@ const Contact = () => {
     </div>  
   )
 }
+
 
 export default Contact
