@@ -5,8 +5,17 @@ import Slide from "../components/Slide";
 import Test from "../components/Test";
 import Footer from "../components/Footer";
 import "../components/MovingText.css";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+AOS.init();
 
 const Home = () => {
+  <div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+  </div>
   return (
     <div className=" overflow-x-hidden font-ubuntu">
       <Navbar />
@@ -42,17 +51,17 @@ const Home = () => {
         </a>
       </div>
       <div className="text-white font-sans mt-20 md:mt-40 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
-        <h1 className="uppercase text-white font-bold text-3xl">
+        <h1 className="uppercase text-white font-bold text-3xl" data-aos="fade-right">
           What Makes Us Stand Out?
         </h1>
       </div>
       <div className="text-white font-sans mt-10 md:mt-20 md:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
-        <h1 className="text-left">
+        <h1 className="text-left" data-aos="fade-up">
           We take the extra time to inspect every Digital Image supplied,
           ensuring optimal details, and color-correcting / enhancing as needed.
         </h1>
       </div>
-      <div className="text-white md:mx-20 mx-3">
+      <div className="text-white md:mx-20 mx-3" data-aos="zoom-out">
         <p className="text-left my-5 mt-5 font-poppins">
           We provide 100% problem-free files for printing
         </p>
@@ -83,11 +92,11 @@ const Home = () => {
           </p>
         </p>
       </div>
-      <div id="ourstory" className="text-white my-10">
+      <div id="ourstory" className="text-white my-10" data-aos="fade-right">
         <p className="text-left mx-3 md:mx-20 font-bold text-2xl uppercase">
           Our Mission
         </p>
-        <p className="text-left my-5 mx-3 md:mx-20">
+        <p className="text-left my-5 mx-3 md:mx-20" data-aos="fade-left">
           Desbeyond is committed to being a guiding light in innovative design,
           a dependable partner for brands seeking transformative solutions, and
           the ultimate destination for design professionals pushing the
@@ -95,7 +104,7 @@ const Home = () => {
         </p>
       </div>
       <Slideabout />
-      <div className="text-white mt-10">
+      <div className="text-white mt-10" data-aos="fade-up">
         <p className="text-left mx-3 md:mx-20 font-bold text-2xl md:text-4xl uppercase">
           Design Solutions: Crafting innovative and visually striking designs.
         </p>
@@ -109,10 +118,10 @@ const Home = () => {
         <Slide />
       </div>
       <div className="text-white my-5">
-        <h1 className="text-center md:text-4xl text-white mx-3 md:mx-20 font-bold text-2xl uppercase">
+        <h1 className="text-center md:text-4xl text-white mx-3 md:mx-20 font-bold text-2xl uppercase" data-aos="fade-left">
           Client Testimonials
         </h1>
-        <p className="text-left mt-10 md:text-xl mx-3 md:mx-20">
+        <p className="text-left mt-10 md:text-xl mx-3 md:mx-20" data-aos="fade-right">
           The satisfaction of our clients is our most prized accomplishment.
           Here's what some of them have to say about their experiences with
           Desbeyond:
