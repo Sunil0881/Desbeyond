@@ -1,16 +1,20 @@
 import Navbar from "../components/Navbar";
 import serviceimg from "../assets/service.jpg";
 import ServiceBookSlider from "../components/ServiceBookSlide";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import Footer from "../components/Footer";
+AOS.init();
 
 const Service = () => {
   return (
-    <div className="text-white font-poppins">
+    <div className="text-white font-poppins overflow-x-hidden">
       <Navbar />
-      <h1 className="text-3xl md:text-5xl font-bold text-center my-24 text-gray-800">
+      <h1 className="text-3xl md:text-5xl font-bold text-center my-24 text-gray-800" data-aos="fade-down">
         Services We Provide
       </h1>
       <div className="flex gap-7 mx-3 items-center flex-col md:flex-row">
-        <h1 className="text-xl md:text-3xl font-bold md:w-8/12 leading-relaxed">
+        <h1 className="text-xl md:text-3xl font-bold md:w-8/12 leading-relaxed" data-aos="fade-right">
           We are a Design Agency based in India, offering high quality &
           exclusive end to end Design services to top companies across the
           World.
@@ -20,10 +24,10 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-left">
           Books Design Services
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="zoom-in">
           Book design is a multifaceted discipline that unites art and science
           to craft the visual and structural elements of a book, all with the
           overarching purpose of elevating the reader's experience and
@@ -35,7 +39,7 @@ const Service = () => {
         <div className="px-4">
           <ServiceBookSlider />
         </div>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-right">
           At its core, book design seeks to engage the reader from the very
           first glance, beckoning them to explore the world contained within the
           pages. Typography, for instance, is one of the foundational pillars of
@@ -69,10 +73,10 @@ const Service = () => {
         </p>
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-left">
           Cover Design Services
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-right">
           Cover design is a vital aspect of graphic design and publishing,
           encompassing the creation of the front and back covers of books,
           magazines, brochures, and other printed or digital materials. A
@@ -91,10 +95,10 @@ const Service = () => {
                 </p> */}
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
           eBook Creation Services
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
           eBook creation is the process of converting written content into a
           digital format that can be easily read and distributed on electronic
           devices such as e-readers, tablets, and smartphones. This format
@@ -112,10 +116,10 @@ const Service = () => {
                 </p> */}
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
           DTP Services
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
           DTP, or Desktop Publishing, is a crucial aspect of modern graphic
           design and document preparation. It refers to the creation,
           formatting, and layout of various types of printed materials, such as
@@ -135,10 +139,10 @@ const Service = () => {
                 </p> */}
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
           Magazine Design Services
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
           Magazine design is a creative and strategic process of curating,
           organizing, and presenting content in a visually engaging and
           informative manner within the pages of a magazine. It is a fusion of
@@ -157,10 +161,10 @@ const Service = () => {
                 </p> */}
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
           Journals
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
           Journals are a fundamental and versatile medium for the documentation,
           dissemination, and preservation of academic and professional
           knowledge. These publications offer a structured platform for
@@ -180,10 +184,10 @@ const Service = () => {
                 </p> */}
       </div>
       <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
+        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800"data-aos="fade-right">
           Translations Services
         </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
+        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
           Translations are the linguistic bridge that allows ideas, cultures,
           and knowledge to traverse borders and connect people across the globe.
           This intricate process involves the conversion of written or spoken
@@ -202,6 +206,7 @@ const Service = () => {
                     role in improving user experience, especially for content-rich websites and articles.
                 </p> */}
       </div>
+      <Footer />
     </div>
   );
 };

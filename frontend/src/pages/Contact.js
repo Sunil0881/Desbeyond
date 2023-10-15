@@ -1,6 +1,10 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import "../components/MovingText.css";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+AOS.init();
 
 
 const Contact = () => {
@@ -8,33 +12,33 @@ const Contact = () => {
     <div className='bg-gradient-to-r from-blue-600 via-sky-300 to-sky-400 text-white'>
         <Navbar />
       <div>
-        <h1 className='font-bold text-center text-3xl md:text-6xl py-10'>
+        <h1 className='font-bold text-center text-3xl md:text-6xl py-10'data-aos="fade-up">
           Contact Us
         </h1>
         <div className='md:flex md:justify-center md:text-xl'>
         <div className='flex justify-center'>
           <h1>Name:</h1>
           <div className='px-2'>
-          <input type='text' className='border-2 border-gray-600 rounded-lg' placeholder='  Enter your name' />
+          <input type='text' className='border-2 border-gray-200 rounded-lg' placeholder='  Enter your name' />
           </div>
         </div>
         <div className='flex justify-center pt-5 md:py-0'>
           <h1>Email:</h1>
           <div className='px-2'>
-          <input type='email' className='border-2 border-gray-600 rounded-lg' placeholder='  Enter your email' />
+          <input type='email' className='border-2 border-gray-200 rounded-lg' placeholder='  Enter your email' />
           </div>
         </div>
         </div>
         <div className='flex justify-center md:py-10 pt-5 md:pr-80'>
         <h1 className='text-xl'>Residence:</h1>
           <div className='px-2'>
-          <input type='text' className='border-2 border-gray-600 rounded-lg' placeholder='  Enter your Location' />
+          <input type='text' className='border-2 border-gray-200 rounded-lg' placeholder='  Enter your Location' />
           </div>
         </div>
         <div className='flex justify-center md:py-5 pt-5 md:text-xl md:pr-52'>
           <h1>Subject:</h1>
           <div className='px-2'>
-          <textarea type='text' className='border-2 border-gray-600 rounded-lg h-28 md:w-80' placeholder='  subject here' />
+          <textarea type='text' className='border-2 border-gray-200 rounded-lg h-28 md:w-80' placeholder='  subject here' />
           </div>
         </div>
         <div className='flex justify-center pt-7 md:text-xl' id='button'>
