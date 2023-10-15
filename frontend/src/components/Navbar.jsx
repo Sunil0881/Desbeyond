@@ -47,7 +47,7 @@ export default function Navbar() {
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-full md:w-2/12 flex items-center">
                 <a className="flex" href="/"><img src={logo} className='h-12 w-full' alt='logo' /></a>
-                <div className='pt-2'>
+                <div className=''>
                     <a href='/'>
                     <h1 className='text-white font-bold text-2xl uppercase'>desbeyond</h1>
                     <h1 className='text-white font-semibold text-xs tracking-widest'>Design Beyond</h1>
