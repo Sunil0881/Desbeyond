@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 
 function App() {    
   return (
-    
+    <div className='bg-indigo-950'>
       <Router>
           <Routes>
           <Route path="/" Component={Home} />
@@ -16,6 +16,7 @@ function App() {
           <Route path="/Service" Component={Service} />
           </Routes>
       </Router>
+    </div>
   );
 }
 

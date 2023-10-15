@@ -7,11 +7,12 @@ import Footer from "../components/Footer";
 import "../components/MovingText.css";
 
 
+
 const Home = () => {
   return (
     <div className=" overflow-x-hidden font-ubuntu">
       <Navbar />
-      <div className="md:flex">
+      <div className="md:flex ">
         <div className="md:flex mx-2">
           <div className="flex justify-center">
             <h1 className="text-5xl md:text-8xl md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white mt-16">
