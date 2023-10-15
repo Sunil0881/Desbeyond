@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import logo from "../assets/ideas-creative-occupation-design_53876-61069.png";
 import Move from "../components/MoveText";
 import Slide from "../components/slide";
@@ -9,12 +9,12 @@ import "../components/MovingText.css";
 
 const Home = () => {
   return (
-    <div className=" overflow-x-hidden">
+    <div className=" overflow-x-hidden font-ubuntu">
       <Navbar />
       <div className="md:flex">
         <div className="md:flex mx-2">
           <div className="flex justify-center">
-            <h1 className="text-5xl md:text-8xl md:font-bold mx-14 font-bold font-sans text-white mt-16">
+            <h1 className="text-5xl md:text-8xl md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white mt-16">
               Designing
               <span className="bg-transparent title-line"> Beyond </span>
               Today, for <span className="title-line">Tomorrow</span>
@@ -28,12 +28,12 @@ const Home = () => {
             <img
               src={logo}
               alt="logo"
-              className="rounded-full border-4 border-gray-400 hover:border-blue-400"
+              className="rounded-full border-4 md:mx-20 border-gray-400 hover:border-blue-400"
             />
           </div>
         </div>
       </div>
-      <div className="text-white font-sans mt-20 md:mt-20 md:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
+      <div className="text-white font-sans mt-20 md:mt-20 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
         <h1 className="uppercase text-white font-bold text-3xl">Our Story</h1>
       </div>
       <div className="text-white font-sans mt-10 md:mt-20 md:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
@@ -81,8 +81,8 @@ const Home = () => {
       <div>
         <Slide />
       </div>
-      <div className="text-white">
-        <h1 className="text-left md:text-4xl text-white mx-3 md:mx-20 font-bold text-2xl uppercase">
+      <div className="text-white my-5">
+        <h1 className="text-center md:text-4xl text-white mx-3 md:mx-20 font-bold text-2xl uppercase">
           Client Testimonials
         </h1>
         <p className="text-left mt-10 md:text-xl mx-3 md:mx-20">

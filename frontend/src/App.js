@@ -5,11 +5,10 @@ import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
 
-function App() {
+function App() {    
   return (
-    <div className="bg-gradient-to-b from-purple-500 via-gray-400 to-blue-500">
+    <div className="">
       <Router>
-
           <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />

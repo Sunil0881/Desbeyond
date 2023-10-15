@@ -8,27 +8,23 @@ function MovingText() {
     const contentElement = contentRef.current;
 
     const restartAnimation = () => {
-      // Pause the animation
       contentElement.style.animationPlayState = 'paused';
 
-      // Wait for a delay (e.g., 5 seconds)
       setTimeout(() => {
-        // Restart the animation
         contentElement.style.animationPlayState = 'running';
-      }, 5000); // Adjust the delay duration as needed (in milliseconds)
+      }, 5000); 
     };
 
-    // Listen for animation iteration to restart the animation
+
     contentElement.addEventListener('animationiteration', restartAnimation);
 
-    // Clean up the event listener
     return () => {
       contentElement.removeEventListener('animationiteration', restartAnimation);
     };
   }, []);
 
   return (
-    <div className='text-white'>
+    <div className='text-white slider'>
       <div className='moving-text' ref={contentRef}>
         <div className='flex gap-4'>
           {/* Your content here */}
