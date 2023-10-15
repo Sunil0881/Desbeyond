@@ -5,19 +5,10 @@ import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
 
-function App() {
+function App() {    
   return (
-
-
     
-      
-
-   
-
-    <div className="bg-indigo-950">
-
       <Router>
-
           <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
@@ -25,7 +16,6 @@ function App() {
           <Route path="/Service" Component={Service} />
           </Routes>
       </Router>
-    </div>
   );
 }
 

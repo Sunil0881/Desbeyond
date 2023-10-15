@@ -16,8 +16,12 @@
   transition: all .2s;
 }
 
+.slider {
+  animation: slide 55s linear infinite;
+}
 .moving-text {
-  animation: loopText 10s linear infinite; /* Adjust the duration as needed */
+  animation: loopText 35s linear infinite; /* Adjust the duration as needed */
   white-space: nowrap in; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowing text */
 }
+
