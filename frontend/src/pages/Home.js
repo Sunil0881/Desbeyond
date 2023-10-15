@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import logo from "../assets/ideas-creative-occupation-design_53876-61069.png";
-import Move from "../components/MoveText";
+import Slideabout from "../components/Slideabout"
 import Slide from "../components/Slide";
 import Test from "../components/Test";
 import Footer from "../components/Footer";
@@ -22,6 +22,7 @@ const Home = () => {
               Designing <span className="bg-transparent"> Beyond </span>
               Today, for <span className="title-line">Tomorrow</span>
             </h1>
+              
           </div>
           <div className=" mt-16 md:ml-15 ml-6 flex h-72 w-72 md:h-96 md:w-96">
             <img
@@ -83,7 +84,7 @@ const Home = () => {
           boundaries of creativity. Your vision is our inspiration.
         </p>
       </div>
-      <Move />
+      <Slideabout />
       <div className="text-white mt-10">
         <p className="text-left mx-3 md:mx-20 font-bold text-2xl md:text-4xl uppercase">
           Design Solutions: Crafting innovative and visually striking designs.
