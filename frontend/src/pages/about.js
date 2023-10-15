@@ -17,6 +17,7 @@ const About = () => {
             </div>
             <Slider />
             <Team />
+            <Footer />
         </div>
      );
 }

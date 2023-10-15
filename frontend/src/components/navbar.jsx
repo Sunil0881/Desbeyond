@@ -13,6 +13,7 @@ function MobileNav({open, setOpen}) {
             <div className="flex items-center justify-center filter drop-shadow-md font-bold g-gradient-to-r from-purple-600 via-gray-200 to-blue-400 h-20 z-10 md:hidden"> {/*logo container*/}
                 <h1 className="text-xl font-poppins text-black uppercase font-bold">Desbeyond</h1>
             </div>
+
             <div className="flex flex-col ml-4 text-white">
                 <a className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
@@ -33,6 +34,8 @@ function MobileNav({open, setOpen}) {
         </div>
     )
 }
+
+
 
 export default function Navbar() {
 
