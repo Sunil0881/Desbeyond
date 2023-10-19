@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 AOS.init();
 
+
 const About = () => {
     return ( 
         <div className="overflow-x-hidden font-poppins">
