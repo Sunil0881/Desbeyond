@@ -16,7 +16,7 @@ function App() {
     <script src="Desbeyond/frontend/src/pages/js/space.js" />
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <Router>
-      <div class='bg'></div>
+      {/* <div class='bg'></div> */}
         <AnimatePresence>
           <Routes>
           <Route path="/" Component={Home} />
