@@ -19,7 +19,7 @@ const Contact = () => {
         <div className='flex justify-center'>
           <h1>Name:</h1>
           <div className='px-2'>
-          <input type='text' className='border-2 border-gray-200 rounded-lg' placeholder='  Enter your name' />
+          <input type='text' className='border-2 border-gray-200 rounded-lg bg-' placeholder='  Enter your name' />
           </div>
         </div>
         <div className='flex justify-center pt-5 md:py-0'>
