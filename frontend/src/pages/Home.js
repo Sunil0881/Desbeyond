@@ -1,26 +1,31 @@
 import Navbar from "../components/Navbar";
-import logo from "../assets/ideas-creative-occupation-design_53876-61069.png";
 import Slideabout from "../components/Slideabout"
 import Slide from "../components/Slide";
 import Test from "../components/Test";
 import Footer from "../components/Footer";
 import "../components/MovingText.css";
 import 'aos/dist/aos.css';
+import Lottie from 'lottie-react'
+import animate3 from '../assets/animate4.json'
 import AOS from 'aos';
-import "../pages/css/input.css"
-import Ribbon from "../components/Ribbon";
-AOS.init();
 
+import "../pages/css/input.css"
+
+
+AOS.init();
 
 const Home = () => {
   <div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
+    <script src="Desbeyond/frontend/src/pages/js/space.js" />
   <script>
   AOS.init();
 </script>
   </div>
   return (
     <div className=" overflow-x-hidden font-ubuntu">
+      
       <Navbar />
       <div className="md:flex ">
         <div className="md:flex mx-2">
@@ -36,27 +41,32 @@ const Home = () => {
             </h1>
               
           </div>
-          <div className=" mt-16 md:ml-15 ml-6 flex h-72 w-72 md:h-96 md:w-96">
-            <img
-              src={logo}
-              alt="logo"
-              className="rounded-full border-8 drop-shadow-2xl md:mx-10 md:mt-14 border-gray-400 hover:border-blue-400 md:scale-125"
+          <div className=" mt-16 md:ml-15 ml-6 h-72 w-72 md:h-96 md:w-96">
+            <Lottie
+            animationData={animate3}
+            loop={true}
+              alt="Logo"
+              className="drop-shadow-2xl md:mx-10 md:mt-14 border-gray-400 hover:border-blue-400 md:scale-125"
             />
+            <h1 className="flex justify-center text-4xl font-ubuntu text-white font-bold">Designing the Era</h1>
           </div>
         </div>
       </div>
-      <div className="text-white my-5 mt-5">
+      <div className="text-white flex justify-center md:justify-start my-5">
         <a
+
 
           className="md:text-left text-center text-xl my-5 mx-3 md:mx-52  scale-75 hover:scale-100 px-1 py-2 rounded-full"
           
 
           href="/Contact"
         >
-          <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:text-cyan-500 hover:bg-none hover:border-2 text-white font-bold py-2 px-4 rounded-full">
+          <button 
+          className="md:text-left text-xl mx-3 md:mx-52 scale-75 hover:scale-100 px-1 rounded-full" href="/Contact"></button>
+          <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:bg-none hover:border-2 hover:border-white text-white hover:text-white font-bold py-2 px-4 rounded-full">
+
   Contact Us
 </button>
-
         </a>
       </div>
       <div className="text-white font-sans mt-20 md:mt-40 lg:mx-20 mx-3 md:text-2xl font-semibold md:flex md:justify-start">
@@ -107,7 +117,7 @@ const Home = () => {
         </p>
         <p className="text-left my-5 mx-3 md:mx-20" data-aos="fade-left">
           Desbeyond is committed to being a guiding light in innovative design,
-          a dependable partner for brands seeking transformative solutions, and
+          a dependable partner for brands seeking transformative solutions, and 
           the ultimate destination for design professionals pushing the
           boundaries of creativity. Your vision is our inspiration.
         </p>
