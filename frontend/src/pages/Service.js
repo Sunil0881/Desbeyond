@@ -1,8 +1,10 @@
 import Navbar from "../components/Navbar";
 import serviceimg from "../assets/service.jpg";
-import ServiceBookSlider from "../components/ServiceBookSlide";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import book from '../assets/interiortypesetbook.webp';
+import book2 from '../assets/Coverimage.jpeg';
+import book3 from '../assets/ebook.jpeg';
 import Footer from "../components/Footer";
 AOS.init();
 
@@ -15,15 +17,157 @@ const Service = () => {
       </h1>
       <div className="flex gap-7 mx-3 items-center flex-col md:flex-row">
         <h1 className="text-xl md:text-3xl font-bold md:w-8/12 leading-relaxed" data-aos="fade-right">
-          We are a Design Agency based in India, offering high quality &
-          exclusive end to end Design services to top companies across the
-          World.
+          Desbeyond is a Books & Magazine Design Firm based in Chennai, India assisting
+          Books Publishing Firms, Magazine Companies across the World with its High
+          Standards Deliverables. 
         </h1>
         <div>
           <img className="rounded-3xl" src={serviceimg} alt="serviceing" />
         </div>
       </div>
+      <div className="text-xl md:text-3xl my-10 mx-10 text-justify">
+          With our Team of Industry Design Experts, we pride
+          ourselves on assisting our Clients with not just one service, but, many services.
+          Our repeat business from some clients has been going for years.
+          At Desbeyond, we offer a professional finish that you can be proud of.
+          We take extra special care when it comes to designing our book
+          interiors, covers & e-books. We provide an Complete end-to-end
+          Package for Book & Magazine Creations with our wide range of Services.
+      </div>
       <div>
+        <div className="text-xl md:text-3xl text-center py-5 underline font-bold">
+          OUR PRIMARY SERVICES
+        </div>
+        <div className="text-5xl my-5 font-semibold mx-5 list-none">
+          <li className="my-20">1) Interior Typeset Book Designs</li>
+          <li className="my-20">2) Book Cover Wrapper Design Services</li>
+          <li className="my-20">3) E-Book Designs</li>
+        </div>
+      </div>
+      <div>
+        <div className="text-3xl text-center font-bold my-10 underline">
+          INTERIOR TYPESET DESIGN
+        </div>
+        <div className="flex items-center mx-3">
+          <div>
+            <img src={book} className="rounded-xl" alt="interiortypesetbook"/>
+          </div>
+          <div className="mx-5 text-xl">
+            The importance of book typeset design
+            and font selection cannot be overstated
+            in the world of publishing. These
+            elements are the unsung heroes of any
+            literary work, silently influencing our
+            reading experience in profound ways.
+            A well-crafted book design and an
+            appropriate font are integral to the
+            overall aesthetic and readability of a
+            book.<br/><br />
+            At Desbeyond, we make sure to deliver
+            high standard Interior Typeset Designs
+            for all kinds of Books - Academic,
+            Fiction, No-Fiction, Comic Books & More.
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="text-3xl text-center font-bold my-10 underline">
+          COVER DESIGN
+        </div>
+        <div className="flex flex-row-reverse items-center mx-3">
+          <div className="w-full">
+            <img src={book2} className="rounded-xl" alt="interiortypesetbook"/>
+          </div>
+          <div className="mx-10 text-xl">
+            Our book cover design service offers great
+            flexibility as we can offer you a design
+            service tailored to your individual project.
+            So if you have just written a novel, history
+            book or any other type of book and want a
+            professional looking cover, we are here to
+            help. We do also offer the complete design
+            package which includes the inside layout
+            of the pages so please contact us to find
+            out more.<br/><br />
+            At Desbeyond, we take extra special care
+            when it comes to designing our book covers
+            which suits for Paperback, Hardcase,
+            e-Books.
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="text-3xl text-center font-bold my-10 underline">
+          E-BOOK DESIGN
+        </div>
+        <div className="flex items-center mx-3">
+          <div className="w-full">
+            <img src={book3} className="rounded-xl w-full" alt="interiortypesetbook"/>
+          </div>
+          <div className="mx-5 text-xl">
+            eBooks are actually a great way to get
+            your work in front of a wider audience.
+            Kindles, iPads, and other devices are
+            becoming an increasingly popular way
+            for readers to access Books. With our
+            wealth of experience, we know what
+            works and, more importantly, what
+            doesn't, when it comes to eBook design.<br/><br />
+            At Desbeyond, let us create for you a fully
+            navigable eBook via the table of
+            contents, reflowable or fixed, with both
+            Mobi and ePub formats supported.
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="text-3xl text-center font-bold my-10 underline">
+          OUR OTHER MAJOR SERVICES
+        </div>
+        <div className="flex justify-between mx-10">
+          <div className="list-none text-2xl mx-10 my-10 font-semibold">
+            <li className="my-5">
+              * DTP Services
+            </li>
+            <li className="my-5">
+              * Editing & Proof Reading Services
+            </li>
+            <li className="my-5">
+              * Translation Services
+            </li>
+            <li className="my-5">
+              * Transliteration Services
+            </li>
+            <li className="my-5">
+              * Illustration Book Design
+            </li>
+            <li className="my-5">
+              * Coffee Table Book Design
+            </li>
+          </div>
+          <div className="list-none text-2xl mx-10 my-10 font-semibold ">
+            <li className="my-5">
+              * Video Book Trailer
+            </li>
+            <li className="my-5">
+              * Media Promotion of Books
+            </li>
+            <li className="my-5">
+              * Online Portals Listing Services
+            </li>
+            <li className="my-5">
+              * Printing & Packaging Design
+            </li>
+            <li className="my-5">
+              * Author Website Creation
+            </li>
+            <li className="my-5">
+              * Audio Books Services
+            </li>
+          </div>
+        </div>
+      </div>
+      {/* <div>
         <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-left">
           Books Design Services
         </h1>
@@ -49,163 +193,7 @@ const Service = () => {
           legible but also harmonize with the book's subject matter and tone.
         </p>
       </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800">
-          Pagination (Typeset Services)
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-          Pagination is a fundamental element in typesetting and graphic design,
-          used to organize and present content in a structured and easily
-          digestible manner. It is particularly important in the context of
-          books, magazines, websites, and other printed or digital media where
-          content is divided into discrete sections or pages.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-          Pagination involves the arrangement of content into pages, often
-          following a logical sequence. In printed materials like books, it
-          ensures that content is divided into manageable segments, allowing
-          readers to navigate through the text conveniently. In digital media,
-          pagination plays a crucial role in improving user experience,
-          especially for content-rich websites and articles.
-        </p>
-      </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-left">
-          Cover Design Services
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-right">
-          Cover design is a vital aspect of graphic design and publishing,
-          encompassing the creation of the front and back covers of books,
-          magazines, brochures, and other printed or digital materials. A
-          well-executed cover design is the first point of contact between the
-          audience and the content, serving multiple functions that go beyond
-          mere aesthetics.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        {/* <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-                    At its core, book design seeks to engage the reader from the very first glance, beckoning them to explore the world 
-                    contained within the pages. Typography, for instance, is one of the foundational pillars of book design. The choice of fonts, 
-                    their sizes, line spacing, and margins may seem like subtle details, but they have a profound impact on readability. 
-                    An ideal typographical selection should not only be legible but also harmonize with the book's subject matter and tone.
-                </p> */}
-      </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
-          eBook Creation Services
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
-          eBook creation is the process of converting written content into a
-          digital format that can be easily read and distributed on electronic
-          devices such as e-readers, tablets, and smartphones. This format
-          provides a convenient and accessible way to publish and consume books,
-          magazines, manuals, and various written materials in the digital age.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        {/* <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-                    Pagination involves the arrangement of content into pages, often following a logical sequence. 
-                    In printed materials like books, it ensures that content is divided into manageable segments, 
-                    allowing readers to navigate through the text conveniently. In digital media, pagination plays a crucial 
-                    role in improving user experience, especially for content-rich websites and articles.
-                </p> */}
-      </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
-          DTP Services
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
-          DTP, or Desktop Publishing, is a crucial aspect of modern graphic
-          design and document preparation. It refers to the creation,
-          formatting, and layout of various types of printed materials, such as
-          magazines, brochures, flyers, newspapers, books, and more, using
-          specialized software and digital tools. DTP combines design aesthetics
-          with the technical aspects of publishing to produce visually appealing
-          and well-structured documents.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        {/* <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-                    At its core, book design seeks to engage the reader from the very first glance, beckoning them to explore the world 
-                    contained within the pages. Typography, for instance, is one of the foundational pillars of book design. The choice of fonts, 
-                    their sizes, line spacing, and margins may seem like subtle details, but they have a profound impact on readability. 
-                    An ideal typographical selection should not only be legible but also harmonize with the book's subject matter and tone.
-                </p> */}
-      </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
-          Magazine Design Services
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
-          Magazine design is a creative and strategic process of curating,
-          organizing, and presenting content in a visually engaging and
-          informative manner within the pages of a magazine. It is a fusion of
-          art, typography, photography, and graphic design, aimed at capturing
-          the attention of readers, conveying a message, and enhancing the
-          overall reader experience.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        {/* <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-                    Pagination involves the arrangement of content into pages, often following a logical sequence. 
-                    In printed materials like books, it ensures that content is divided into manageable segments, 
-                    allowing readers to navigate through the text conveniently. In digital media, pagination plays a crucial 
-                    role in improving user experience, especially for content-rich websites and articles.
-                </p> */}
-      </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800" data-aos="fade-right">
-          Journals
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
-          Journals are a fundamental and versatile medium for the documentation,
-          dissemination, and preservation of academic and professional
-          knowledge. These publications offer a structured platform for
-          individuals, organizations, and institutions to record and share
-          research, insights, and observations across various fields and
-          disciplines. Journals hold a distinct position in the world of
-          scholarly communication.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        {/* <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-                    At its core, book design seeks to engage the reader from the very first glance, beckoning them to explore the world 
-                    contained within the pages. Typography, for instance, is one of the foundational pillars of book design. The choice of fonts, 
-                    their sizes, line spacing, and margins may seem like subtle details, but they have a profound impact on readability. 
-                    An ideal typographical selection should not only be legible but also harmonize with the book's subject matter and tone.
-                </p> */}
-      </div>
-      <div>
-        <h1 className="text-2xl my-8 md:text-4xl font-bold text-center md:my-16 text-gray-800"data-aos="fade-right">
-          Translations Services
-        </h1>
-        <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify" data-aos="fade-left">
-          Translations are the linguistic bridge that allows ideas, cultures,
-          and knowledge to traverse borders and connect people across the globe.
-          This intricate process involves the conversion of written or spoken
-          content from one language into another while maintaining its essence,
-          context, and cultural nuances.Translations of books are a vital and
-          enriching aspect of the literary world, bridging cultures, languages,
-          and histories to bring stories and ideas to a broader global audience.
-        </p>
-        <div className="px-10">
-          <ServiceBookSlider />
-        </div>
-        {/* <p className="text-lg mx-5 text-justify md:text-2xl md:mx-10 md:text-justify">
-                    Pagination involves the arrangement of content into pages, often following a logical sequence. 
-                    In printed materials like books, it ensures that content is divided into manageable segments, 
-                    allowing readers to navigate through the text conveniently. In digital media, pagination plays a crucial 
-                    role in improving user experience, especially for content-rich websites and articles.
-                </p> */}
-      </div>
+       */}
       <Footer />
     </div>
   );
