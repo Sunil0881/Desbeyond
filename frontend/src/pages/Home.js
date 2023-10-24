@@ -9,6 +9,13 @@ import Lottie from 'lottie-react'
 import animate3 from '../assets/animate4.json'
 import AOS from 'aos';
 
+
+import "../pages/css/input.css"
+
+
+AOS.init();
+
+
 AOS.init();
 const Home = () => {
   <div>
@@ -47,8 +54,17 @@ const Home = () => {
       </div>
       <div className="text-white flex justify-center md:justify-start my-5">
         <a
-          className="md:text-left text-xl mx-3 md:mx-52 scale-75 hover:scale-100 px-1 rounded-full" href="/Contact">
+
+
+          className="md:text-left text-center text-xl my-5 mx-3 md:mx-52  scale-75 hover:scale-100 px-1 py-2 rounded-full"
+          
+
+          href="/Contact"
+        >
+          <button 
+          className="md:text-left text-xl mx-3 md:mx-52 scale-75 hover:scale-100 px-1 rounded-full" href="/Contact"></button>
           <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:bg-none hover:border-2 hover:border-white text-white hover:text-white font-bold py-2 px-4 rounded-full">
+
   Contact Us
 </button>
         </a>
@@ -129,6 +145,7 @@ const Home = () => {
           Here's what some of them have to say about their experiences with
           Desbeyond:
         </p>
+          <Ribbon />
         <Test />
       </div>
       <Footer />
