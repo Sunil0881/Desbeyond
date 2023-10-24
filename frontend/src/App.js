@@ -11,8 +11,6 @@ import Blog from './pages/Blog';
 
 function App() {    
   return (
-
-
     <div className='bg-gradient-to-b from-indigo-500 via-indigo-500 to-indigo-500'>
     <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
     <script src="Desbeyond/frontend/src/pages/js/space.js" />
