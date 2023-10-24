@@ -24,7 +24,7 @@ function App() {
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <Router>
 
-      {/* <div class='bg'></div> */}
+      
         <AnimatePresence>
           <Routes>
           <Route path="/" Component={Home} />
@@ -35,8 +35,7 @@ function App() {
           <Route path="/Admin" Component={Admin} />
           <Route path="/Dashboard" Component={isLoggedIn === 'true' ? Dashboard : Admin} />
           <Route path="/AddBlog" Component={isLoggedIn === 'true' ? AddBlog : Admin} />
-
-          </Routes>
+         </Routes>
         </AnimatePresence>
       </Router>
     </div>
