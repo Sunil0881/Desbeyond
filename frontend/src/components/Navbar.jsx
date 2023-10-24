@@ -16,7 +16,7 @@ function MobileNav({open, setOpen}) {
                 <h1 className="text-xl font-poppins text-black uppercase font-bold">Desbeyond</h1>
             </div>
 
-            <div className="flex flex-col ml-4 text-white">
+            <div className="flex flex-col ml-4 text-black">
                 <a className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </a>
@@ -29,7 +29,7 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-normal my-4" href="/Service" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Services
                 </a>
-                <a className="text-xl font-normal my-4" href="/Blog" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4" href="/Blogs" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Blogs
                 </a>
             </div>  
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <div className=''>
                     <a href='/'>
                     <h1 className='text-white font-bold text-2xl uppercase'>desbeyond</h1>
-                    <h1 className='text-white font-semibold text-xs tracking-widest'>Design Beyond</h1>
+                    <h1 className='text-white font-semibold text-xs tracking-widest'>Designs Beyond</h1>
                     </a>
                 </div>
             </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
                     <NavLink to="/Service">
                         <h1 className='hover:text-cyan-500'>SERVICES</h1>
                     </NavLink>
-                    <NavLink to="/Blog">
+                    <NavLink to="/Blogs">
                         <h1 className='hover:text-cyan-500'>BLOGS</h1>
                     </NavLink>
                 </div>
