@@ -10,7 +10,7 @@ import animate3 from '../assets/animate4.json'
 import AOS from 'aos';
 
 import "../pages/css/input.css"
-import Ribbon from "../components/Ribbon";
+
 
 
 AOS.init();
@@ -26,10 +26,10 @@ const Home = () => {
   </div>
   return (
     <div className=" overflow-x-hidden font-ubuntu">
-      
+      {/* <div class='bg'></div>  */}
       <Navbar />
       <div className="md:flex ">
-        <div className="md:flex mx-2">
+        <div className="md:flex mx-2">s
           <div className="flex justify-center">
             <h1 className="text-5xl md:text-9xl scale-100 md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white my-4 mt-10">
               Designing
@@ -40,6 +40,8 @@ const Home = () => {
               Designing <span className="bg-transparent"> Beyond </span>
               Today, for <span className="title-line">Tomorrow</span>
             </h1>
+            
+           
               
           </div>
           <div className=" mt-16 md:ml-15 ml-6 h-72 w-72 md:h-96 md:w-96">
@@ -146,7 +148,7 @@ const Home = () => {
           Here's what some of them have to say about their experiences with
           Desbeyond:
         </p>
-          <Ribbon />
+         
         <Test />
       </div>
       <Footer />
