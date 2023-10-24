@@ -5,6 +5,9 @@ import 'slick-carousel/slick/slick-theme.css';
 import imgSrc from '../assets/coverimg.jpeg';
 import arrow from '../assets/down-arrow.png';
 import { CustomPrevArrow, CustomNextArrow } from './Customarrow';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+AOS.init();
 
 const BookCard = ({ name, author, imgSrc, voters, summary }) => (
   <div className="book-card bg-gradient-to-t from-green-300 via-blue-500 to-purple-600 mx-8 p-4 shadow-lg rounded-lg">
@@ -35,7 +38,7 @@ const BookCarousel = ({ books }) => {
   }
 
   return (
-    <div className="book-carousel mt-8">
+    <div className="book-carousel mt-8" data-aos="fade-left">
       <Slider {...settings}>
         {books.map((book, index) => (
           <BookCard key={index} {...book} />
