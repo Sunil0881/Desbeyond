@@ -34,27 +34,6 @@
   .bg:after {
     animation: 5s Skew infinite;
   }
-  
-  .bg:before {
-    animation-delay: 3s;
-  }
-  .bg:after {
-    animation-delay: 1s;
-  }
-  @keyframes Skew {
-    20% {
-      transform: skewY(-45deg) scale(1, 3);
-    }
-    40% {
-      transform: skewY(45deg) scale(1,3);
-    }
-    60% {
-      transform: skewY(-45deg) scale(1, 3);
-    }
-    80% {
-      transform: skewY(45deg) scale(1, 3);
-    }
-  }
   /* .content {
     position: relative;
     margin: 20vh auto;
@@ -67,4 +46,3 @@
     text-shadow: 0 0 1vw rgba(0, 0, 0, 0.25);
     max-width: 80vw;
   } */
-  

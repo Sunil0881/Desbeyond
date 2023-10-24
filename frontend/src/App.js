@@ -17,8 +17,8 @@ function App() {
   return (
 
 
-    // <div className='bg-gradient-to-b from-indigo-500 via-indigo-500 to-indigo-500'>
-    <div className='bg-black'>
+    
+    <div className=''>
     <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
     <script src="Desbeyond/frontend/src/pages/js/space.js" />
 

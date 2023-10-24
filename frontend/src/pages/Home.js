@@ -18,7 +18,7 @@ AOS.init();
 const Home = () => {
   <div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
+    <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css" />
     <script src="Desbeyond/frontend/src/pages/js/space.js" />
   <script>
   AOS.init();
@@ -26,7 +26,7 @@ const Home = () => {
   </div>
   return (
     <div className=" overflow-x-hidden font-ubuntu">
-      {/* <div class='bg'></div>  */}
+      
       <Navbar />
       <div className="md:flex ">
         <div className="md:flex mx-2">
