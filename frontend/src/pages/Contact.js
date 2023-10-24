@@ -64,7 +64,7 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div class=" mb-6" data-te-input-wrapper-init>
                 <label
-                    class="pointer-events-none text-left ml-5 md:ml-0+ top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
+                    class="pointer-events-none text-left  md:ml-0+ top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
                     for="exampleInput90">Name
                   </label>
                   <input type="text" name="user_name" required
@@ -89,7 +89,7 @@ const Contact = () => {
                 </div>
                 <button type="submit" value="Send" data-te-ripple-init data-te-ripple-color="light"
 
-                  class="inline-block  p-5 md:mt-2 rounded text-left ml-5 md:ml-36 bg-black pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white ">
+                  class="inline-block  p-5 md:mt-2 rounded text-left ml-5 md:ml-60 bg-black pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white ">
                                                        Send
                 </button>
               </form>
