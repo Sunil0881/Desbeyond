@@ -7,9 +7,9 @@ const app = express();
 
 
 const corsOptions = {
-  origin: [''],
+  origin: ['http://localhost:3001'],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true, // enable set cookie
+  credentials: true,
   optionsSuccessStatus: 204,
 };
 app.use(cors(corsOptions));

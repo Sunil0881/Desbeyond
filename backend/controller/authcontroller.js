@@ -26,12 +26,23 @@ module.exports.signin = async(req, res, next) => {
     const { password: hashedPassword, ...rest } = validUser._doc;
     const expiryDate = new Date(Date.now() + 3600000); // 1 hour
     res
-      .cookie('access_token', token, { httpOnly: true, expires: expiryDate })
-      .status(200)
-      .json(rest);
+      .status(201)
+      .json({ status: 'ok', data: token, rest: rest });
+
   } catch (error) {
     next(error);
   }
 };
+
+module.exports.userDetail = async (req, res, next) => {
+    try {
+      const user = await User.findOne({username:'admin'});
+      const {password: hashedPassword, ...rest} = user._doc;
+      res.status(200).json({ rest });
+    } catch (error) {
+      next(error)
+    }
+};
+
 
 
