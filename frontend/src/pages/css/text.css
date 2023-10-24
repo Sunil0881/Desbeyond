@@ -34,8 +34,6 @@
   .bg:after {
     animation: 5s Skew infinite;
   }
-
-  
   .bg:before {
     animation-delay: 3s;
   }
