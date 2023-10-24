@@ -145,7 +145,7 @@ const Service = () => {
               * Coffee Table Book Design
             </li>
           </div>
-          <div className="list-none text-2xl mx-0 md:mx-10 my-10 font-semibold" >
+          <div className="list-none text-2xl mx-0 md:mx-10 my-10 font-semibold">
             <li className="my-5">
               * Video Book Trailer
             </li>
