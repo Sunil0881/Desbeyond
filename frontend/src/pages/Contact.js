@@ -34,7 +34,7 @@ const Contact = () => {
             <div class=" w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6 md:pt-20">
 
               <h2 class="mb-6 text-3xl font-bold text-white uppercase text-left ml-5 md:ml-0">Contact us</h2>
-              <p class="mb-6 text-neutral-500 dark:text-neutral-300 font-montserrat text-left ml-5 md:ml-0">
+              <p class="mb-6 pr-5 text-neutral-500 dark:text-neutral-300 font-montserrat text-left ml-5 md:ml-0">
 
 
                       Desbeyond is a Books & Magazine Design Firm based in Chennai, India assisting
@@ -60,7 +60,7 @@ const Contact = () => {
               www.desbeyond.com
               </p>
             </div>
-            <div class=" w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-2/5 md:px-3 lg:px-6 md:pt-24 ">
+            <div class=" w-full   md:mb-0 md:w-2/5 md:px-3 lg:px-6 md:pt-24 pr-10 ">
               <form ref={form} onSubmit={sendEmail}>
                 <div class=" mb-6" data-te-input-wrapper-init>
                 <label
@@ -89,8 +89,8 @@ const Contact = () => {
                 </div>
                 <button type="submit" value="Send" data-te-ripple-init data-te-ripple-color="light"
 
-                  class="inline-block p-5 md:mt-2 rounded text-left ml-5 md:ml-36 bg-black pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white ">
-     Send
+                  class="inline-block  p-5 md:mt-2 rounded text-left ml-5 md:ml-36 bg-black pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white ">
+                                                       Send
                 </button>
               </form>
             </div>
