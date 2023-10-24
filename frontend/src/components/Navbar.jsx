@@ -43,7 +43,7 @@ export default function Navbar() {
 
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter drop-shadow-md bg-gradient-to-b from-indigo-500 via-ifrom-indigo-700 to-ifrom-indigo-600 bg-transparent px-4 py-4 h-20 items-center">
+        <nav className="flex filter drop-shadow-md bg-gradient-to-b bg-transparent px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-full md:w-2/12 flex items-center">
                 <a className="flex" href="/"><img src={logo} className='h-12 w-full' alt='logo' /></a>

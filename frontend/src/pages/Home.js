@@ -8,7 +8,6 @@ import 'aos/dist/aos.css';
 import Lottie from 'lottie-react'
 import animate3 from '../assets/animate4.json'
 import AOS from 'aos';
-
 import "../pages/css/input.css"
 
 
@@ -24,8 +23,9 @@ const Home = () => {
 </script>
   </div>
   return (
+    
     <div className=" overflow-x-hidden font-ubuntu">
-      
+      <div className="bg h-screen"></div>
       <Navbar />
       <div className="md:flex ">
         <div className="md:flex mx-2">
@@ -145,7 +145,7 @@ const Home = () => {
           Here's what some of them have to say about their experiences with
           Desbeyond:
         </p>
-          <Ribbon />
+        
         <Test />
       </div>
       <Footer />
