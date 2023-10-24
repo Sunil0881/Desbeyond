@@ -25,7 +25,7 @@ const Service = () => {
           <img className="rounded-3xl" src={serviceimg} alt="serviceing" />
         </div>
       </div>
-      <div className="text-xl md:text-3xl my-10 mx-10 text-justify font-montserrat">
+      <div className="text-xl md:text-3xl my-10 mx-10 text-justify font-montserrat" data-aos="zoom-out">
           With our Team of Industry Design Experts, we pride
           ourselves on assisting our Clients with not just one service, but, many services.
           Our repeat business from some clients has been going for years.
@@ -35,24 +35,24 @@ const Service = () => {
           Package for Book & Magazine Creations with our wide range of Services.
       </div>
       <div>
-        <div className="text-xl md:text-3xl text-center py-5 underline font-bold">
+        <div className="text-xl md:text-3xl text-center py-5 underline font-bold" data-aos="zoom-out">
           OUR PRIMARY SERVICES
         </div>
-        <div className="text-xl md:text-5xl my-5 font-semibold mx-5 list-none font-montserrat">
+        <div className="text-xl md:text-5xl my-5 font-semibold mx-5 list-none font-montserrat" data-aos="zoom-out">
           <li className="my-5 md:my-20">1) Interior Typeset Book Designs</li>
           <li className="my-5 md:my-20">2) Book Cover Wrapper Design Services</li>
           <li className="my-5 md:my-20">3) E-Book Designs</li>
         </div>
       </div>
       <div>
-        <div className="text-xl md:text-3xl text-center font-bold my-10 underline">
+        <div className="text-xl md:text-3xl text-center font-bold my-10 underline" data-aos="zoom-out">
           INTERIOR TYPESET DESIGN
         </div>
-        <div className="block md:flex items-center mx-3">
+        <div className="block md:flex items-center mx-3" data-aos="zoom-out">
           <div>
-            <img src={book} className="rounded-xl " alt="interiortypesetbook"/>
+            <img src={book} className="rounded-xl" alt="interiortypesetbook"/>
           </div>
-          <div className="mx-5 text-xl font-montserrat">
+          <div className="mx-5 text-xl font-montserrat" data-aos="zoom-out">
             The importance of book typeset design
             and font selection cannot be overstated
             in the world of publishing. These
@@ -71,14 +71,14 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <div className="text-xl md:text-3xl text-center font-bold my-10 underline">
+        <div className="text-xl md:text-3xl text-center font-bold my-10 underline" data-aos="zoom-out">
           COVER DESIGN
         </div>
-        <div className="block md:flex md:flex-row-reverse items-center mx-3">
+        <div className="block md:flex md:flex-row-reverse items-center mx-3" data-aos="zoom-out">
           <div className="w-full">
             <img src={book2} className="rounded-xl" alt="interiortypesetbook"/>
           </div>
-          <div className="mx-10 text-xl font-montserrat">
+          <div className="mx-10 text-xl font-montserrat" data-aos="zoom-out">
             Our book cover design service offers great
             flexibility as we can offer you a design
             service tailored to your individual project.
@@ -97,14 +97,14 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <div className="text-xl md:text-3xl text-center font-bold my-10 underline">
+        <div className="text-xl md:text-3xl text-center font-bold my-10 underline" data-aos="zoom-out">
           E-BOOK DESIGN
         </div>
-        <div className="block md:flex items-center mx-3">
+        <div className="block md:flex items-center mx-3" data-aos="zoom-out">
           <div className="w-full">
             <img src={book3} className="rounded-xl w-full" alt="interiortypesetbook"/>
           </div>
-          <div className="mx-5 text-xl font-montserrat">
+          <div className="mx-5 text-xl font-montserrat" data-aos="zoom-out">
             eBooks are actually a great way to get
             your work in front of a wider audience.
             Kindles, iPads, and other devices are
@@ -121,11 +121,11 @@ const Service = () => {
         </div>
       </div>
       <div>
-        <div className="text-2xl md:text-3xl text-center font-bold my-10 underline">
+        <div className="text-2xl md:text-3xl text-center font-bold my-10 underline" data-aos="zoom-out">
           OUR OTHER MAJOR SERVICES
         </div>
-        <div className="block md:flex justify-between mx-10">
-          <div className="list-none text-2xl mx-0 md:mx-10 my-10 font-semibold">
+        <div className="block md:flex justify-between mx-10" data-aos="zoom-out">
+          <div className="list-none text-2xl mx-0 md:mx-10 my-10 font-semibold" data-aos="zoom-out">
             <li className="my-5">
               * DTP Services
             </li>
@@ -145,7 +145,7 @@ const Service = () => {
               * Coffee Table Book Design
             </li>
           </div>
-          <div className="list-none text-2xl mx-0 md:mx-10 my-10 font-semibold ">
+          <div className="list-none text-2xl mx-0 md:mx-10 my-10 font-semibold" >
             <li className="my-5">
               * Video Book Trailer
             </li>
