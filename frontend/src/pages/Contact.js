@@ -41,7 +41,7 @@ const Contact = () => {
                       ourselves on assisting our Clients with not just one service, but, many services.
                       Our repeat business from some clients has been going for years.
                                     </p>
-              <p class="mb-2 text-neutral-500 dark:text-neutral-300 md:mt-20">
+              <p class="mb-2 text-neutral-500 dark:text-neutral-300 md:mt-10">
                 Chennai : No.2, GK Moopanar Road, Srinivasa Nagar,
                 New Perungalathur, Chennai - 63.<br></br>
                 Our Other Locations : Coimbatore, Pondicherry
