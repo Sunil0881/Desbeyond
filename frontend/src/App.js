@@ -5,17 +5,26 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
+import '../src/pages/css/text.css';
+import { AnimatePresence } from "framer-motion";
+import Blogs from './pages/Blogs';
 import Admin from './pages/Admin/Admin';
 import Dashboard from './pages/Admin/Dashboard';
 import AddBlog from './pages/Admin/AddBlog';
-import Blogs from './pages/Blogs';
 
-function App() {  
-  const isLoggedIn = window.localStorage.getItem('loggedIn');  
+function App() {   
+  const isLoggedIn = window.localStorage.getItem('loggedIn');   
   return (
-    <div className='bg-gradient-to-r from-blue-600 via-sky-300 to-sky-400'>
+
+
+    <div className='bg-gradient-to-b from-indigo-500 via-indigo-500 to-indigo-500'>
+    <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
+    <script src="Desbeyond/frontend/src/pages/js/space.js" />
+
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <Router>
+      <div class='bg'></div>
+        <AnimatePresence>
           <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
@@ -26,6 +35,7 @@ function App() {
           <Route path="/Dashboard" Component={isLoggedIn === 'true' ? Dashboard : Admin} />
           <Route path="/AddBlog" Component={isLoggedIn === 'true' ? AddBlog : Admin} />
           </Routes>
+        </AnimatePresence>
       </Router>
     </div>
   );

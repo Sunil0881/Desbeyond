@@ -10,6 +10,7 @@ import animate3 from '../assets/animate4.json'
 import AOS from 'aos';
 
 import "../pages/css/input.css"
+import Ribbon from "../components/Ribbon";
 
 
 AOS.init();
