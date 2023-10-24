@@ -16,14 +16,15 @@ function App() {
   const isLoggedIn = window.localStorage.getItem('loggedIn');   
   return (
 
-
-    <div className='bg-gradient-to-b from-indigo-500 via-indigo-500 to-indigo-500'>
-    <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
-    <script src="Desbeyond/frontend/src/pages/js/space.js" />
+   
+    <div >
+      <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
+      <script src="Desbeyond/frontend/src/pages/js/space.js" />
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <Router>
-      {/* <div class='bg'></div> */}
+
+      
         <AnimatePresence>
           <Routes>
           <Route path="/" Component={Home} />
@@ -34,7 +35,7 @@ function App() {
           <Route path="/Admin" Component={Admin} />
           <Route path="/Dashboard" Component={isLoggedIn === 'true' ? Dashboard : Admin} />
           <Route path="/AddBlog" Component={isLoggedIn === 'true' ? AddBlog : Admin} />
-          </Routes>
+         </Routes>
         </AnimatePresence>
       </Router>
     </div>
