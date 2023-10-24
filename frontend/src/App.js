@@ -24,7 +24,7 @@ function App() {
           <Route path="/about" Component={About} />
           <Route path="/contact" Component={Contact} />
           <Route path="/Service" Component={Service} />
-          <Route path="/Blog" Component={Blog} />
+          <Route path="/Blog" Component={Blog} />   
           </Routes>
         </AnimatePresence>
       </Router>

@@ -16,22 +16,22 @@ function MobileNav({open, setOpen}) {
                 <h1 className="text-xl font-poppins text-white uppercase font-bold">Desbeyond</h1>
             </div>
 
-            <div className="flex flex-col ml-4 text-black">
-                <a className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+            <div className="flex flex-col ml-4 text-white">
+                <a className="text-xl font-normal my-4 hover:text-black" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </a>
-                <a className="text-xl font-normal my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4 hover:text-black" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     About
                 </a>
-                <a className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4 hover:text-black" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Contact
                 </a>
-                <a className="text-xl font-normal my-4" href="/Service" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4 hover:text-black" href="/Service" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Services
                 </a>
-                <a className="text-xl font-normal my-4" href="/Blogs" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                {/* <a className="text-xl font-normal my-4 hover:text-black" href="/Blogs" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Blogs
-                </a>
+                </a> */}
             </div>  
         </div>
     )
@@ -65,20 +65,20 @@ export default function Navbar() {
                 </div>
                 <div className="hidden text-white font-semibold md:flex">
                     <NavLink to="/">
-                        <h1 className=" hover:text-cyan-500">HOME</h1>
-                    </NavLink>
-                    <NavLink to="/contact">
-                        <h1 className='hover:text-cyan-500'>CONTACT</h1>
+                        <h1 className=" hover:text-black">HOME</h1>
                     </NavLink>
                     <NavLink to="/about">
-                        <h1 className='hover:text-cyan-500'>ABOUT</h1>
+                        <h1 className='hover:text-black'>ABOUT</h1>
                     </NavLink>
                     <NavLink to="/Service">
-                        <h1 className='hover:text-cyan-500'>SERVICES</h1>
+                        <h1 className='hover:text-black'>SERVICES</h1>
                     </NavLink>
-                    <NavLink to="/Blogs">
-                        <h1 className='hover:text-cyan-500'>BLOGS</h1>
+                    <NavLink to="/contact">
+                        <h1 className='hover:text-black'>CONTACT</h1>
                     </NavLink>
+                    {/* <NavLink to="/Blogs">
+                        <h1 className='hover:text-black'>BLOGS</h1>
+                    </NavLink> */}
                 </div>
             </div>
         </nav>

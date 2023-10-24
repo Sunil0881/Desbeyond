@@ -29,11 +29,12 @@ const Contact = () => {
        
       <div>
         <Navbar/>
-        <section >
-          <div class="flex flex-wrap pr-12">
-            <div class=" w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6 md:pt-20 ">
-              <h2 class="mb-6 text-3xl font-bold text-white">Contact us</h2>
-              <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+        <section class="">
+          <div class="flex flex-wrap font-poppins">
+            <div class=" w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6 md:pt-20">
+              <h2 class="mb-6 text-3xl font-bold text-white uppercase">Contact us</h2>
+              <p class="mb-6 text-neutral-500 dark:text-neutral-300 font-montserrat">
+
                       Desbeyond is a Books & Magazine Design Firm based in Chennai, India assisting
                       Books Publishing Firms, Magazine Companies across the World with its High
                       Standards Deliverables. With our Team of Industry Design Experts, we pride
