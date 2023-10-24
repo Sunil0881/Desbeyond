@@ -47,8 +47,14 @@
   40% {
     transform: skewY(45deg) scasle(1.3);
   }
+
+  
+  .bg:before {
+    animation-delay: 3s;
+
   60% {
     transform: skewY(-45deg) scale(1, 3);
+
   }
   80% {
     transform: skewY(45deg) scale(1, 3);
