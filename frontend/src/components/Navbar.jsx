@@ -13,10 +13,10 @@ function MobileNav({open, setOpen}) {
     return (
         <div className={`absolute top-0 left-0 h-screen w-screen bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 z-10 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
             <div className="flex items-center justify-center filter drop-shadow-md font-ubuntu font-bold g-gradient-to-r from-purple-600 via-gray-200 to-blue-400 h-20 z-10 md:hidden"> {/*logo container*/}
-                <h1 className="text-xl font-poppins text-black uppercase font-bold">Desbeyond</h1>
+                <h1 className="text-xl font-poppins text-white uppercase font-bold">Desbeyond</h1>
             </div>
 
-            <div className="flex flex-col ml-4 text-white">
+            <div className="flex flex-col ml-4 text-black">
                 <a className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </a>
@@ -29,7 +29,7 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-normal my-4" href="/Service" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Services
                 </a>
-                <a className="text-xl font-normal my-4" href="/Blog" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <a className="text-xl font-normal my-4" href="/Blogs" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Blogs
                 </a>
             </div>  
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <div className=''>
                     <a href='/'>
                     <h1 className='text-white font-bold text-2xl uppercase'>desbeyond</h1>
-                    <h1 className='text-white font-semibold text-xs tracking-widest'>Design Beyond</h1>
+                    <h1 className='text-white font-semibold text-xs tracking-widest'>Designs Beyond</h1>
                     </a>
                 </div>
             </div>
@@ -76,7 +76,7 @@ export default function Navbar() {
                     <NavLink to="/Service">
                         <h1 className='hover:text-cyan-500'>SERVICES</h1>
                     </NavLink>
-                    <NavLink to="/Blog">
+                    <NavLink to="/Blogs">
                         <h1 className='hover:text-cyan-500'>BLOGS</h1>
                     </NavLink>
                 </div>

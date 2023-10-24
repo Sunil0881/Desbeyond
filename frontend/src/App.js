@@ -7,9 +7,13 @@ import Service from './pages/Service';
 import Contact from './pages/Contact';
 import '../src/pages/css/text.css';
 import { AnimatePresence } from "framer-motion";
-import Blog from './pages/Blog';
+import Blogs from './pages/Blogs';
+import Admin from './pages/Admin/Admin';
+import Dashboard from './pages/Admin/Dashboard';
+import AddBlog from './pages/Admin/AddBlog';
 
-function App() {    
+function App() {   
+  const isLoggedIn = window.localStorage.getItem('loggedIn');   
   return (
 
    
@@ -19,13 +23,19 @@ function App() {
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <Router>
-       <AnimatePresence>
+
+      {/* <div class='bg'></div> */}
+        <AnimatePresence>
           <Routes>
-            <Route path="/" Component={Home} />
-            <Route path="/about" Component={About} />
-            <Route path="/contact" Component={Contact} />
-            <Route path="/Service" Component={Service} />
-            <Route path="/Blog" Component={Blog} />
+          <Route path="/" Component={Home} />
+          <Route path="/about" Component={About} />
+          <Route path="/contact" Component={Contact} />
+          <Route path="/Service" Component={Service} />
+          <Route path="/Blogs" Component={Blogs} />
+          <Route path="/Admin" Component={Admin} />
+          <Route path="/Dashboard" Component={isLoggedIn === 'true' ? Dashboard : Admin} />
+          <Route path="/AddBlog" Component={isLoggedIn === 'true' ? AddBlog : Admin} />
+
           </Routes>
         </AnimatePresence>
       </Router>

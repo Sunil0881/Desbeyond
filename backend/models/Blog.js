@@ -6,10 +6,6 @@ const BlogDetailSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    image: {
-        type: String,
-        required: true
-    },
     author: {
         type: String,
         required: true
