@@ -16,7 +16,7 @@ const Service = () => {
         Services We Provide
       </h1>
       <div className="flex gap-7 mx-3 items-center flex-col md:flex-row">
-        <h1 className="text-xl text-center md:text-left md:text-3xl font-bold md:w-8/12 leading-relaxed" data-aos="fade-right">
+        <h1 className="text-xl text-center md:text-left md:text-3xl font-semibold md:w-8/12 leading-relaxed" data-aos="fade-right">
           Desbeyond is a Books & Magazine Design Firm based in Chennai, India assisting
           Books Publishing Firms, Magazine Companies across the World with its High
           Standards Deliverables. 
@@ -25,7 +25,7 @@ const Service = () => {
           <img className="rounded-3xl" src={serviceimg} alt="serviceing" />
         </div>
       </div>
-      <div className="text-xl md:text-3xl my-10 mx-10 text-justify">
+      <div className="text-xl md:text-3xl my-10 mx-10 text-justify font-montserrat">
           With our Team of Industry Design Experts, we pride
           ourselves on assisting our Clients with not just one service, but, many services.
           Our repeat business from some clients has been going for years.
@@ -38,7 +38,7 @@ const Service = () => {
         <div className="text-xl md:text-3xl text-center py-5 underline font-bold">
           OUR PRIMARY SERVICES
         </div>
-        <div className="text-xl md:text-5xl my-5 font-semibold mx-5 list-none">
+        <div className="text-xl md:text-5xl my-5 font-semibold mx-5 list-none font-montserrat">
           <li className="my-5 md:my-20">1) Interior Typeset Book Designs</li>
           <li className="my-5 md:my-20">2) Book Cover Wrapper Design Services</li>
           <li className="my-5 md:my-20">3) E-Book Designs</li>
@@ -50,9 +50,9 @@ const Service = () => {
         </div>
         <div className="block md:flex items-center mx-3">
           <div>
-            <img src={book} className="rounded-xl" alt="interiortypesetbook"/>
+            <img src={book} className="rounded-xl " alt="interiortypesetbook"/>
           </div>
-          <div className="mx-5 text-xl">
+          <div className="mx-5 text-xl font-montserrat">
             The importance of book typeset design
             and font selection cannot be overstated
             in the world of publishing. These
@@ -78,7 +78,7 @@ const Service = () => {
           <div className="w-full">
             <img src={book2} className="rounded-xl" alt="interiortypesetbook"/>
           </div>
-          <div className="mx-10 text-xl">
+          <div className="mx-10 text-xl font-montserrat">
             Our book cover design service offers great
             flexibility as we can offer you a design
             service tailored to your individual project.
@@ -104,7 +104,7 @@ const Service = () => {
           <div className="w-full">
             <img src={book3} className="rounded-xl w-full" alt="interiortypesetbook"/>
           </div>
-          <div className="mx-5 text-xl">
+          <div className="mx-5 text-xl font-montserrat">
             eBooks are actually a great way to get
             your work in front of a wider audience.
             Kindles, iPads, and other devices are

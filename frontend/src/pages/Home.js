@@ -27,7 +27,7 @@ const Home = () => {
 </script>
   </div>
   return (
-    <div className=" overflow-x-hidden font-ubuntu bg">
+    <div className=" overflow-x-hidden font-poppins bg">
 
       <Navbar />
       <div className="md:flex">
@@ -55,17 +55,12 @@ const Home = () => {
       </div>
       <div className="text-white flex justify-center md:justify-start my-5">
         <a
-
-
-          className="md:text-left text-center text-xl my-5 mx-3 md:mx-52  scale-75 hover:scale-100 px-1 py-2 rounded-full"
-          
-
+          className="md:text-left text-center text-xl mx-3 md:mx-52  scale-75 hover:scale-100 px-1 rounded-full"
           href="/Contact"
         >
           <button 
-          className="md:text-left text-xl mx-3 md:mx-52 scale-75 hover:scale-100 px-1 rounded-full" href="/Contact"></button>
-          <button class="bg-gradient-to-r from-violet-600  via-purple-800 to-violet-800 hover:bg-none hover:border-2 hover:border-white text-white hover:text-white font-bold py-2 px-4 rounded-full">
-
+          className="md:text-left text-xl mx-3 scale-75 hover:scale-100 px-1 rounded-full" href="/Contact"></button>
+          <button class="bg-gradient-to-r from-violet-800  via-purple-600 to-violet-800 hover:bg-none hover:border-2 hover:border-white text-white hover:text-white font-bold py-2 px-4 rounded-full">
   Contact Us
 </button>
         </a>
