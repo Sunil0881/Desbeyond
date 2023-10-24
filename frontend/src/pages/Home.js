@@ -145,7 +145,6 @@ const Home = () => {
           Here's what some of them have to say about their experiences with
           Desbeyond:
         </p>
-          <Ribbon />
         <Test />
       </div>
       <Footer />
