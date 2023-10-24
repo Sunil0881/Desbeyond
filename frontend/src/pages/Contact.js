@@ -32,8 +32,10 @@ const Contact = () => {
         <section class="">
           <div class="flex flex-wrap font-poppins">
             <div class=" w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6 md:pt-20">
+
               <h2 class="mb-6 text-3xl font-bold text-white uppercase text-left ml-5 md:ml-0">Contact us</h2>
               <p class="mb-6 text-neutral-500 dark:text-neutral-300 font-montserrat text-left ml-5 md:ml-0">
+
 
                       Desbeyond is a Books & Magazine Design Firm based in Chennai, India assisting
                       Books Publishing Firms, Magazine Companies across the World with its High
@@ -41,7 +43,9 @@ const Contact = () => {
                       ourselves on assisting our Clients with not just one service, but, many services.
                       Our repeat business from some clients has been going for years.
                                     </p>
+
               <p class="mb-2 text-neutral-500 dark:text-neutral-300 text-left ml-5 md:ml-0">
+
                 Chennai : No.2, GK Moopanar Road, Srinivasa Nagar,
                 New Perungalathur, Chennai - 63.<br></br>
                 Our Other Locations : Coimbatore, Pondicherry
@@ -84,8 +88,9 @@ const Contact = () => {
                     id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
                 </div>
                 <button type="submit" value="Send" data-te-ripple-init data-te-ripple-color="light"
+
                   class="inline-block p-5 md:mt-2 rounded text-left ml-5 md:ml-36 bg-black pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white ">
-                  Send
+     Send
                 </button>
               </form>
             </div>
