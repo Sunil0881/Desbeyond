@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 function Blogs() {
   const [blog, setBlog] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
-  const baseUrl = 'http://localhost:3000';
+  const baseUrl = 'http://desbeyond-backend.vercel.app';
 
   function getBlog() {
     fetch(`${baseUrl}/user/viewBlog`, {

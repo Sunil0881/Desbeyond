@@ -112,7 +112,7 @@ const Service = () => {
             for readers to access Books. With our
             wealth of experience, we know what
             works and, more importantly, what
-            doesn't, when it comes to eBook design.<br/><br />
+            doesn't, when it comes to eBook design.<br/><br/>
             At Desbeyond, let us create for you a fully
             navigable eBook via the table of
             contents, reflowable or fixed, with both
