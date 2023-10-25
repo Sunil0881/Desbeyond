@@ -8,8 +8,9 @@ AOS.init();
 
 
 const Contact = () => {
+  <link rel="stylesheet" href="Desbeyond/frontend/src/pages/css/text.css"/>
   return (
-    <div className='bg-gradient-to-r from-blue-600 via-sky-300 to-sky-400 text-white'>
+    <div className='text-white'>
         <Navbar />
       <div>
         <h1 className='font-bold text-center text-3xl md:text-6xl py-10'data-aos="fade-up">

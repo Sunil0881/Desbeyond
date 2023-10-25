@@ -5,12 +5,12 @@ const Slide = () => {
     return (
         <div className='md:flex md:justify-evenly'>
             <div className='text-white'>
-                <h1 className='font-bold text-2xl md:text-4xl my-14 mx-5 uppercase' data-aos="fade-right">Book Design Services</h1>
-                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14  mx-5 uppercase' data-aos="fade-right">Pagination</h1>
-                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="fade-right">Cover Design Services</h1>
-                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="fade-right">Ebook creation Services</h1>
-                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="fade-right">Ebook creation Services</h1>
-                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="fade-right">DTP Services</h1>
+                <h1 className='font-bold text-2xl md:text-4xl my-14 mx-5 uppercase' data-aos="zoom-out">Book Design Services</h1>
+                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14  mx-5 uppercase' data-aos="zoom-out">Pagination</h1>
+                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="zoom-out">Cover Design Services</h1>
+                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="zoom-out">Ebook creation Services</h1>
+                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="zoom-out">Ebook creation Services</h1>
+                <h1 className='font-bold text-2xl md:text-4xl mt-5 md:my-14 mx-5 uppercase' data-aos="zoom-out">DTP Services</h1>
                 
 
             </div>

@@ -13,3 +13,4 @@ const CustomNextArrow = (props) => (
 );
 
 export { CustomPrevArrow, CustomNextArrow };
+  
