@@ -7,7 +7,7 @@ const app = express();
 
 
 const corsOptions = {
-  origin: ['http://localhost:3001','https://desbeyond.vercel.app'],
+  origin: ['https://desbeyond.vercel.app'],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
