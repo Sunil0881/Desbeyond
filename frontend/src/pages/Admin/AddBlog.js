@@ -5,7 +5,7 @@ function AddBlog() {
     const [title,setTitle] = useState('');
     const [author,setAuthor] = useState('');
     const [content,setContent] = useState('');
-    const baseUrl = 'http://desbeyond-backend.vercel.app';
+    const baseUrl = 'https://desbeyond-backend.vercel.app';
 
     function logOut(){
         localStorage.clear();

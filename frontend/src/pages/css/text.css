@@ -16,10 +16,10 @@
     width: 100%;
     content: "";
     background: rgb(249, 4, 4);
-    /* background: rgba(25, 162, 243, 1); */
+    /* background: rgba(25, 162, 243, 1);   */
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
   }
-  /* .bg:after {
+   /* .bg:after {
     background: rgba(22, 179, 118, 1);
     content: "";
     display: block;
@@ -29,13 +29,13 @@
     top: 25vh;
     left: 0;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
-  } */
+  }  */
   .bg:before,
   .bg:after {
-    animation: 5s Skew infinite;
+    animation: 10s Skew infinite;
   }
   .bg:before {
-    animation-delay: 3s;
+    animation-delay: 10s;
   }
   .bg:after {
     animation-delay: 1s;

@@ -5,7 +5,7 @@ function Dashboard() {
   const [userdata, setUserData] = useState("");
   const [blog, setBlog] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
-  const baseUrl = 'http://desbeyond-backend.vercel.app';
+  const baseUrl = 'https://desbeyond-backend.vercel.app';
 
   function logOut(){
     localStorage.clear();

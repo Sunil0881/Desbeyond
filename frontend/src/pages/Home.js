@@ -33,7 +33,7 @@ const Home = () => {
       <div className="md:flex">
         <div className="md:flex mx-2">
           <div className="flex justify-center">
-            <h1 className="text-5xl md:text-9xl scale-100 md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white my-4 mt-10">
+            <h1 className="text-5xl  md:text-9xl scale-100 md:font-bold mx-14 lg:mx-40 font-bold font-sans text-white my-4 mt-10">
               Designing
               <span className="bg-transparent title-line"> Beyond </span>
               Today, for <span className="title-line">Tomorrow</span>

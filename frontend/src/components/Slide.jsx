@@ -1,5 +1,9 @@
 import React from 'react'
 import logo from "../assets/ideas-creative-occupation-design_53876-61069.png";
+import pkin from "../assets/pumpbook.jpg"
+import techbook from "../assets/techbook.jpg"
+import rainbook from "../assets/rainbook.jpg"
+import book from "../assets/book.jpg"
 
 const Slide = () => {
     return (
@@ -17,46 +21,27 @@ const Slide = () => {
             <div  data-aos="zoom-out" className="carousel carousel-center md:p-4 md:space-x-3 h-72 w-2/6 md:h-4/6 md:w-3/6 my-10 bg-gradient-to-b from-purple-500 via-gray-400 to-blue-500  hover:from-blue-500 hover:via-gray-400 hover:to-purple-500 rounded-box artboard phone-2">
                 <div className="carousel carousel-center space-x-5 rounded-box">
                     <div className="carousel-item block text-white font-sans uppercase">
-                        <img src={logo} className='w-96 h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Book Design</p>
+                        <img src={pkin} className='w-96 h-96' alt="Pizza" />
+                        <p className='font-bold m-5 pl-7'>Book Design</p>
                        
                     </div>
                     <div className="carousel-item block text-white font-sans uppercase">
-                        <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
+                        <img src={techbook} className='w-full h-96' alt="Pizza" />
+                        <p className='font-bold m-5 pl-7'>Book Design</p>
+                    </div>
+                    <div className="carousel-item block text-white font-sans uppercase">
+                        <img src={rainbook} className='w-full h-96' alt="Pizza" />
+                        <p className='font-bold m-5 pl-7'>Book Design</p>
+                    </div>
+                    <div className="carousel-item block text-white font-sans uppercase">
+                        <img src={book} className='w-full h-96' alt="Pizza" />
+                        <p className='font-bold m-5 pl-7'>Book Design</p>
                     </div>
                     <div className="carousel-item block text-white font-sans uppercase">
                         <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
+                        <p className='font-bold m-5 pl-7'>Book Design</p>
                     </div>
-                    <div className="carousel-item block text-white font-sans uppercase">
-                        <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
-                    </div>
-                    <div className="carousel-item block text-white font-sans uppercase">
-                        <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
-                    </div>
-                    <div className="carousel-item block text-white font-sans uppercase">
-                        <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
-                    </div>
-                    <div className="carousel-item block text-white font-sans uppercase">
-                        <img src={logo} className='w-full h-96' alt="Pizza" />
-                        <p className='font-bold m-5'>Name: mani kandan</p>
-                        <p className='font-bold mx-5'>position: designer</p>
-                        <p className='font-bold m-5'>Experience : 3+ years</p>
-                    </div>
+                   
                 </div>
             </div>
         </div>
